@@ -17,7 +17,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Request
 from fastapi.responses import HTMLResponse, FileResponse
 
 # ═══ НАСТРОЙКИ ═══
-DATABASE_URL = "postgresql://..."  # ЗАМЕНИТЕ на ваш Internal Database URL из Render
+DATABASE_URL = "postgresql://ldd_user:pZcfW7TSqXYpAwGYNcbYO3cuZObiyzMS@dpg-db365orncjis73ej8hgg-a/ldd"  # ЗАМЕНИТЕ на ваш Internal Database URL из Render
 AVATAR_DIR = os.path.expanduser("~/avatars")
 UPLOAD_DIR = os.path.expanduser("~/uploads")
 STICKER_DIR = os.path.expanduser("~/stickers")
