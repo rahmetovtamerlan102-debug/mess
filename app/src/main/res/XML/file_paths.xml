@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="camera" path="camera/"/>
+    <external-path name="ext" path="."/>
+    <external-files-path name="ext_files" path="."/>
+    <files-path name="files" path="."/>
+</paths>
